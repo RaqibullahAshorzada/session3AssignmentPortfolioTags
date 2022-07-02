@@ -99,3 +99,28 @@
     color: #19bd9b;
 }
 
+/* The about page content */
+
+.about_body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about_body img{
+    width: 360px;
+    height: 400px;
+    margin-left: 80PX;
+}
+.about_context {
+    padding-left: 30px;
+}
+.about_context .about_biography {
+    font-size: 20px;
+}
+.about_context .about_info {
+    font-size: 15px;
+    word-spacing: 4px;
+    line-height: 20px;
+
+}
+
+
