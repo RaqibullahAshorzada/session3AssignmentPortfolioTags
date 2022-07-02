@@ -123,4 +123,69 @@
 
 }
 
+/* the contact page content */
+
+.contact_body {
+    background-color: #EAEAEA;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact_main {
+    margin: 0;
+    padding: 50px;
+}
+
+.contact_main_heading {
+    margin: 0;
+    color: gray;
+}
+
+.contact_main_paragraph {
+    color: gray;
+}
+
+form label {
+    color: gray;
+    font-weight: bold;
+}
+
+form input{
+    padding: 15px;
+    width: 390px;
+}
+
+form textarea {
+    padding: 45px;
+    width: 333px;
+}
+
+form button {
+    padding: 8px;
+    width: 130px;
+    background-color: #19bd9b;
+    border-color: #19bd9b;
+}
+
+.contact_main2 {
+    margin: 0;
+    padding: 50px;
+}
+
+.inner_contact_main2 h2 {
+    color: gray;
+}
+
+.inner_contact_main2 h5 {
+    color: #19bd9b;
+    margin: 5px;
+}
+
+.inner_contact_main2 a {
+    color: gray;
+    text-decoration: none;
+}
+
 
