@@ -39,3 +39,63 @@
     margin-right: 20px;
   }
 
+
+/* The home page content */
+
+.logo h1{
+    margin: 0;
+}
+
+/* The bellow code belongs to the body class of the page */
+
+.body {
+    display: flex;
+    justify-content: center;
+} 
+
+ .body img {
+     margin-right: 40px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+.intro {
+    padding-left: 0%;
+    margin-top: 45px;
+    color: black;
+}
+.intro h2 {
+    display: inline;
+    line-height: 30px;
+}
+.intro .developer_heading {
+    padding: 20px;
+    display: inline;
+    color: #19bd9b;
+    line-height: 60px;
+}
+
+/* The code bellow this line belongs to the css of paragraphs section */
+
+.paragraphs{
+    padding: 50px 50px 0px 50px;
+}
+.inner_paragraphs {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.paragraphs h3 {
+    text-align: center;
+    margin: 0%;
+}
+.paragraphs p {
+    line-height: 20px;
+    word-spacing: 3px;
+}
+.paragraphs a {
+    text-decoration: none;
+    color: #19bd9b;
+}
+
